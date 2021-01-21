@@ -1,0 +1,45 @@
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left; font-size: 20px}
+    #main {margin-left: 216px;}
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+#cssTable td
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+p {
+    font-family: Verdana;
+    font-size: 14px;
+    text-align: center;
+}
+p.leftborder {
+    border-left-style: solid;
+    border-color: dodgerblue;
+}
+p.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
